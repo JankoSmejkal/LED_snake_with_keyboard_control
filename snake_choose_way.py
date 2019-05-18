@@ -21,7 +21,7 @@ try:
         # Switch off all LEDs
             GPIO.output(33,False)
             GPIO.output(35,False)
-            GPIO.output(333,False)
+            GPIO.output(33,False)
             
             # Get keyboard key
             direction = screen.getch()
